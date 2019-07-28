@@ -1,10 +1,5 @@
 # Heroku Minecraft Buildpack
 
-This is a [Heroku Buildpack](https://devcenter.heroku.com/articles/buildpacks)
-for running a Minecraft server in a [dyno](https://devcenter.heroku.com/articles/dynos).
-
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
 ## Usage
 
 Create a [free ngrok account](https://ngrok.com/) and copy your Auth token. Then create a new Git project with a `eula.txt` file:
@@ -22,7 +17,7 @@ Create a Heroku app, set your ngrok token, and push:
 ```sh-session
 $ heroku create
 $ heroku buildpacks:add heroku/jvm
-$ heroku buildpacks:add jkutner/minecraft
+$ heroku buildpacks:add https://github.com/JustroX/heroku-buildpack-minecraft.git
 $ heroku config:set NGROK_API_TOKEN="xxxxx"
 $ git push heroku master
 ```
