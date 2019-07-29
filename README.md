@@ -1,5 +1,7 @@
 # Heroku Minecraft Buildpack
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/justrox/heroku-buildpack-minecraft)
+
 ## Usage
 
 Create a [free ngrok account](https://ngrok.com/) and copy your Auth token. Then create a new Git project with a `eula.txt` file:
