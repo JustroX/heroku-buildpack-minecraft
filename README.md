@@ -1,5 +1,8 @@
 # Heroku Minecraft Buildpack
 
+## Example World
+Sample world created by the buildpack. See [ justrox-minecraft.herokuapp.com ](https://justrox-minecraft.herokuapp.com) for the server details and IP address.
+
 ## Usage : Short way
 
 Press that button 
